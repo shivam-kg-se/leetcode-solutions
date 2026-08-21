@@ -1,8 +1,8 @@
 class MyStack {
-    Queue<Integer> obj = new ArrayDeque<>();
+    Queue<Integer> obj ;
 
     public MyStack() {
-        
+        obj = new ArrayDeque<>();
     }
     
     public void push(int x) {
