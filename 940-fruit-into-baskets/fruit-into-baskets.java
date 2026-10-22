@@ -10,7 +10,7 @@ class Solution {
                 int leftfruit = fruits[left];
                 map.put(leftfruit,map.get(leftfruit)-1);
             if(map.get(leftfruit)==0){
-                map.remove(leftfruit);
+                map.remove(leftfruit); 
             }
             left++;
             }
